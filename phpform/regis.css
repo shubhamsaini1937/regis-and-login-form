@@ -1,0 +1,99 @@
+body{
+    background-color: #e1dfd3;
+
+}
+.form_style{
+    background-color: white;
+}
+.form_style label, .label{
+
+    font-family: "Quicksand", sans-serif;
+    font-weight: 600;
+    letter-spacing: 0.1rem;
+
+}
+.form_style .label{
+  font-size: .9rem;
+}
+.form_style .bg-regis{
+    background-color: rgba(192, 192, 192, 0.15);
+
+    color: #2d2d2b;
+}
+.form_style h4,h2{
+    font-family: "Quicksand", sans-serif;
+    font-weight: 600;
+    letter-spacing: 0.1rem;
+    
+}
+
+.form_style input, .inputs{
+    /* background-color: #e1dfd356; */
+    box-shadow: 0rem 0.2rem 1rem rgba(0, 0, 0, 0.048);
+    border: none;
+    background-color: rgba(192, 192, 192, 0.15);
+    font-family: "Quicksand", sans-serif;
+    letter-spacing: 0.1rem;
+    font-size: 1rem;
+}
+.form_style input:focus, .inputs:focus{
+   /* outline: .1rem solid green; */
+    border: .1rem solid #2d2d2b;
+    box-shadow: none;
+}
+
+
+
+
+.form_style .form-group{
+    padding: 0.5rem 2rem;
+}
+.form_style .input-group-text{
+    background-color: #2d2d2b;
+    color: white;
+    border: none;
+}
+.form_style .regis_btns {
+    width: fit-content;
+    font-size: 1rem;
+    padding: .6rem 1.8rem;
+    font-family: "Quicksand", sans-serif;
+    letter-spacing: 0.1rem;
+    border-radius: 5rem;
+    background-color:white;
+    border: .2rem solid #2d2d2b;
+    font-weight: 600;
+    outline: none;
+    color: #2d2d2b;
+  }
+
+
+  .form_style .regis_btns:hover {
+    background-color: #2d2d2b;
+    color: white;
+    border: .2rem solid #2d2d2b;
+  }
+
+  .form_style .regis_p{
+    font-size: 1rem;
+    letter-spacing: 0.1rem;
+    color: #2d2d2b;
+    font-family: "Quicksand", sans-serif;
+  }
+  .form_style .regis_p a{
+    text-decoration: underline;
+    color: #2d2d2b;
+    font-weight: 600;
+  }
+  .form_style .regis_p a:hover{
+
+    color: #2d2d2bd2;
+
+  }
+  @media only screen and (max-width:768px) {
+    .form_style .form-group{
+        padding: 0.5rem 0rem;
+    }
+  }
+
+  
